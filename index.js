@@ -3,8 +3,6 @@ const lname = document.querySelector(".lname");
 const gender = document.querySelector(".gender");
 const pronoun = document.querySelector(".pronoun");
 const dob = document.querySelector(".dob");
-const birthplace = document.querySelector(".birthplace");
-const home = document.querySelector(".home");
 const education = document.querySelector(".education");
 const mbti = document.querySelector(".mbti");
 
@@ -23,8 +21,6 @@ function fetchIndex(){
             gender.textContent = "gender: " + data.gender;
             pronoun.textContent = "pronoun: " + data.pronoun;
             dob.textContent = "date of birth: " + data.dob;
-            birthplace.textContent = "birthplace: " + data.birthplace;
-            home.textContent = "home: " + data.home;
             education.textContent = "education: " + data.education;
             mbti.textContent = "MBTI personality: " + data.mbti;
         });
