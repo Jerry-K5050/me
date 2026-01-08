@@ -1,0 +1,173 @@
+{
+    "current_school": {
+        "name": "New York University, College of Arts and Science",
+        "logo_1x": "../../assets/nyu-480.png",
+        "logo_2x": "../../assets/nyu.png",
+        "location": "New York, NY",
+        "graduation_date": "May 2027",
+        "gpa": [
+
+        ],
+        "degree": "bachelor",
+        "major": "Mathematics and Computer Science",
+        "coursework": [
+            {
+                "course_full_name": "Life Science: Brain and Behav",
+                "course_code": "CORE-UA - 306",
+                "credit": "4.0"
+            },
+    
+            {
+                "course_full_name": "First-Year Cohort Meeting",
+                "course_code": "COHRT-UA - 10",
+                "credit": "4.0"
+            },
+    
+            {
+                "course_full_name": "Mathematics for Economics I",
+                "course_code": "MATH-UA - 131",
+                "credit": "4.0"
+            },
+    
+            {
+                "course_full_name": "Introduction to Programming",
+                "course_code": "CSCI-UA - 3",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Int'l Writing Workshop I",
+                "course_code": "EXPOS-UA - 4",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Code! 2",
+                "course_code": "IMNY-UT - 2",
+                "credit": "2.0"
+            },
+    
+            {
+                "course_full_name": "Intro to Computer Sci",
+                "course_code": "CSCI-UA - 101",
+                "credit": "4.0"
+            },
+    
+            {
+                "course_full_name": "Int'l Writing Workshop II",
+                "course_code": "EXPOS-UA - 9",
+                "credit": "4.0"
+            },
+    
+            {
+                "course_full_name": "Topics",
+                "course_code": "FYSEM-UA - 900",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Mathematics for Economics II",
+                "course_code": "MATH-UA - 132",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Analytical Statistics",
+                "course_code": "ECON-UA - 20",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Data Structure",
+                "course_code": "CSCI-UA - 102",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Urban Economics",
+                "course_code": "ECON-UA - 227",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Elementary Japanese I",
+                "course_code": "EAST-UA - 247",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Computer System Organization",
+                "course_code": "CSCI-UA - 201",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Discrete Mathematics",
+                "course_code": "MATH-UA - 120",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Linear Algebra",
+                "course_code": "MATH-UA - 140",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Intro to Web Design and Computer Principles",
+                "course_code": "CSCI-UA - 102",
+                "credit": "4.0"
+            }
+        ]
+        
+    },
+
+    "high_school": {
+        "name": "High School Attached to Shandong Normal University",
+        "logo_1x": "../../assets/ssfz-480.png",
+        "logo_2x": "../../assets/ssfz.png",
+        "dept": "Int'l Dept",
+        "location": "Jinan, Shandong, China",
+        "graduation_date": "June 2023",
+        "gpa": 4.01,
+        "degree": "high school",
+        "coursework": [
+            "Pre-calculus",
+            "AP Physics 1",
+            "Honors English Language & Composition",
+            "AP Calculus",
+            "AP Microconomics",
+            "AP Environmental Science",
+            "AP Physics 2",
+            "AP Statistics",
+            "AP Macroeconomics",
+            "AP Psychology",
+            "AP Computer Science"
+        ]
+    },
+
+    "junior_high": {
+        "name": "Dongfang Bilingual Experimental School of Jinan",
+        "logo_1x": "../../assets/df-bilingual-480.jpg",
+        "logo_2x": "../../assets/df-bilingual.jpg",
+        "location": "Jinan, Shandong, China",
+        "graduation_date": "June 2020",
+        "gpa": "A",
+        "degree":"junior high school",
+        "coursework": [
+            "Chinese",
+            "Mathematics",
+            "English",
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "Geography",
+            "Information Technology",
+            "Politics",
+            "History",
+            "Art",
+            "Music",
+            "P.E."
+        ]
+    }
+}

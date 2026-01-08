@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Muyao Jerry Kong | Resume</title>
+    <link rel="stylesheet" href="./resume.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img 
+                src="../../assets/IMG_2115-480.jpg"
+                srcset="../../assets/IMG_2115.jpeg 2x,
+                        ../../assets/IMG_2115-480.jpg 1x" 
+                alt="falied to load">
+        </div>
+        <ul>
+            <li><a href="">My info</a>
+                <ul>
+                    <div class="dropdown-1">
+                        <li><a href="../../pages/field-of-study/field-of-study.html">Field of Study</a></li>
+                        <li><a href="../../pages/education/education.html">Education</a></li>
+                        <li><a href="../../pages/experiences/experiences.html">Experiences</a></li>
+                        <li><a href="../../pages/resume/resume.html">Resume</a></li>
+                    </div>
+                </ul>
+            </li>
+
+            <li><a href="">Contact me</a>
+                <ul>
+                    <div class="dropdown-2">
+                        <li><a href="../../pages/contact-info/contact-info.html">Contact Info</a></li>
+                    </div>
+                    
+                </ul>
+            </li>
+        </ul>
+        
+    </nav>
+
+
+    <main id="contents">
+        <header>
+            <h1 class="title">Resume:</h1>
+        </header>
+
+        <div class="tab-buttons">
+            <button class="tab-button active" data-target="document-view">Document</button>
+            <button class="tab-button" data-target="preview-view">Preview</button>
+        </div>
+
+        <section id="document-view" class="tab-content active">
+            <a href="../../assets/Muyao Jerry Kong Resume.pdf" download>Click here to download</a>
+        </section>
+
+        <section id="preview-view" class="tab-content">
+            <embed
+                src="../../assets/Muyao Jerry Kong Resume.pdf"
+                type="application/pdf"
+                width="80%"
+                height="1000px"
+            >
+        </section>
+    </main>
+
+    <script src="./resume.js"></script>
+</body>
+</html>
