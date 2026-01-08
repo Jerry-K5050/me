@@ -12,7 +12,7 @@
 }
 
 #contents {
-    padding-top: 20vh;
+    padding-top: 160px;
 }
 
 #intro #greeting {
@@ -61,13 +61,13 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
-    transform: translate(0%, -10%);
+    transform: translate(0%, +5%);
     transition: transform 0.5s ease; 
     
 }
 
 #intro #name-and-pic img:hover {
-    transform: scale(1.5);
+    transform: translateY(+10%) scale(1.1);
 }
 
 #navbar {
@@ -97,6 +97,7 @@
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
+    transform: translate(0%, +5%);
     transition: all 0.3s ease;
 }
 
