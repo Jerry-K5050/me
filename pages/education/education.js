@@ -66,7 +66,8 @@ function displayEducation() {
         var cSchoolAndMajorString = `
             <header>
                 <p>${currentSchoolData.name}</p>
-                <p>${currentSchoolData.major}</p>
+                <p>Major in ${currentSchoolData.major}</p>
+                <p>Minor in ${currentSchoolData.minor}</p>
             </header>
             
         `;
@@ -77,11 +78,9 @@ function displayEducation() {
             </header>
             
         `;
-        var cMoreInfoString = currentSchoolData.coursework.map(course => {
+        var cMoreInfoString = currentSchoolData.more.map(m => {
             return `
-            <p>
-                ${course.course_full_name} (${course.course_code}), credit: ${course.credit}
-            </p>
+                <p>${m}</p>
             `
         }).join("\n");
 
@@ -121,18 +120,18 @@ function displayEducation() {
             </header>
             
         `;
-        var hMoreInfoString = highSchoolData.coursework.map(course => {
-            return `
-            <p>
-                ${course}
-            </p>
-            `
-        }).join("\n");
+        // var hMoreInfoString = highSchoolData.coursework.map(course => {
+        //     return `
+        //     <p>
+        //         ${course}
+        //     </p>
+        //     `
+        // }).join("\n");
 
         // Add Strings to HTML
         hSchool.innerHTML += hSchoolString;
         hLocAndGdate.innerHTML += hLocAndGdateString;
-        hMoreInfo.innerHTML += hMoreInfoString;
+        // hMoreInfo.innerHTML += hMoreInfoString;
 
 
 
@@ -164,16 +163,16 @@ function displayEducation() {
             </header>
             
         `;
-        var jMoreInfoString = juniorHighData.coursework.map(course => {
-            return `
-                <p>${course}</p>
-            `
-        }).join("\n");
+        // var jMoreInfoString = juniorHighData.coursework.map(course => {
+        //     return `
+        //         <p>${course}</p>
+        //     `
+        // }).join("\n");
 
         // Add Strings to HTML
         jSchool.innerHTML += jSchoolString;
         jLocAndGdate.innerHTML += jLocAndGdateString;
-        jMoreInfo.innerHTML += jMoreInfoString;
+        // jMoreInfo.innerHTML += jMoreInfoString;
 
     });
 }

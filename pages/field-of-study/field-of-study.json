@@ -1,63 +1,10 @@
 {
     "year_one": {
         "semester_one": [
-            {
-                "course_full_name": "Life Science: Brain and Behav",
-                "course_code": "CORE-UA - 306",
-                "credit": "4.0"
-            },
-    
-            {
-                "course_full_name": "First-Year Cohort Meeting",
-                "course_code": "COHRT-UA - 10",
-                "credit": "4.0"
-            },
-    
-            {
-                "course_full_name": "Mathematics for Economics I",
-                "course_code": "MATH-UA - 131",
-                "credit": "4.0"
-            },
-    
-            {
-                "course_full_name": "Introduction to Computer",
-                "course_code": "CSCI-UA - 3",
-                "credit": "4.0"
-            },
-
-            {
-                "course_full_name": "Int'l Writing Workshop I",
-                "course_code": "EXPOS-UA - 4",
-                "credit": "4.0"
-            }
 
         ],
 
         "semester_two": [
-            {
-                "course_full_name": "Code! 2",
-                "course_code": "IMNY-UT - 2",
-                "credit": "2.0"
-            },
-    
-            {
-                "course_full_name": "Intro to Computer Sci",
-                "course_code": "CSCI-UA - 101",
-                "credit": "4.0"
-            },
-    
-            {
-                "course_full_name": "Int'l Writing Workshop II",
-                "course_code": "EXPOS-UA - 9",
-                "credit": "4.0"
-            },
-    
-            {
-                "course_full_name": "Topics",
-                "course_code": "FYSEM-UA - 900",
-                "credit": "4.0"
-            },
-
             {
                 "course_full_name": "Mathematics for Economics II",
                 "course_code": "MATH-UA - 132",
@@ -69,26 +16,8 @@
     "year_two": {
         "semester_one": [
             {
-                "course_full_name": "Analytical Statistics",
-                "course_code": "ECON-UA - 20",
-                "credit": "4.0"
-            },
-
-            {
                 "course_full_name": "Data Structure",
                 "course_code": "CSCI-UA - 102",
-                "credit": "4.0"
-            },
-
-            {
-                "course_full_name": "Urban Economics",
-                "course_code": "ECON-UA - 227",
-                "credit": "4.0"
-            },
-
-            {
-                "course_full_name": "Elementary Japanese I",
-                "course_code": "EAST-UA - 247",
                 "credit": "4.0"
             }
         ],
@@ -113,7 +42,50 @@
 
             {
                 "course_full_name": "Intro to Web Design and Computer Principles",
-                "course_code": "CSCI-UA - 102",
+                "course_code": "CSCI-UA - 004",
+                "credit": "4.0"
+            }
+        ],
+
+        "summer": [
+            {
+                "course_full_name": "Basic Algorithm",
+                "course_code": "CSCI-UA - 310",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Object Oriented Programming",
+                "course_code": "CSCI-UA - 470",
+                "credit": "4.0"
+            }
+        ]
+    },
+
+    "year_three": {
+        "semester_one": [
+            {
+                "course_full_name": "Agile Software Development and DevOps",
+                "course_code": "CSCI-UA - 430",
+                "credit": "4.0"
+            }
+        ],
+        "semester_two": [
+            {
+                "course_full_name": "Operating System",
+                "course_code": "CSCI-UA - 202",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Natural Language Processing",
+                "course_code": "CSCI-UA - 469",
+                "credit": "4.0"
+            },
+
+            {
+                "course_full_name": "Statistics",
+                "course_code": "ECON-UA - 18",
                 "credit": "4.0"
             }
         ]
